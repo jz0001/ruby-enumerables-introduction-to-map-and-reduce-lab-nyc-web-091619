@@ -31,8 +31,8 @@ def reduce_to_total(source_array, starting_point)
   return total
 end
 
-def reduce_to_total(source_array, starting_point)
-  total=starting_point
+def reduce_to_total(source_array)
+  total=0
   source_array.length.times {|index|
     total=source_array[index]+total}
   return total
