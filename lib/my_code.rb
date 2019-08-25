@@ -1,5 +1,5 @@
 # My Code here....
 def map_to_negativize(source_array)
-  source_array.length.times do {
+  source_array.length.times { |index|
     
   }
