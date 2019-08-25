@@ -24,3 +24,10 @@ def map_to_square(source_array)
   source_array
 end
 
+def reduce_to_total(source_array, starting_point)
+  starting_point=0
+  source_array.length.times {|index|
+    total=source_array[index]+starting_point
+    starting_point=source_array[index]}
+  source_array
+end
